@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+.sidebar{
+   /* background-color: rgb(9, 208, 243);*/
+    width: 23%;
+    font-family: 'Roboto Slab', serif;
+height: 100%;
+background-color: rgb(0, 0, 0);
+color: goldenrod;
+
+padding-right: 6%;
+}
+.sidebar nav{
+    padding: 9%;
+    height: 100%;
+    
+    
+}
+.sidebar nav li{
+   
+    list-style: none;
+    font-size: 27px;
+    padding: 50%;
+    text-align: center;
+    
+
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color:  rgb(152, 214, 224);
+}
+.main{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 89%, rgba(0, 0, 0, 0.65) 100%),
+   url('f.jpg');    
+    
+}
+.container{
+    
+    display: flex;
+    height: 100%;
+}
+.infocontainer{
+    margin: 155px auto;
+   /* background-color: rgb(224, 82, 170);*/
+    height: 50%;
+    width: 63vw;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+.devpic img{
+    width: 100%;
+    height: 100% ;
+    justify-content: space-around;
+    
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 50px;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+.moreabout{
+    font-size: 22px;margin-top: 23px;
+    font-family: 'Roboto Slab', serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background: rgb(54, 54, 209);
+    justify-content: space-around ;
+    font-size: 17px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:rgb(54, 54, 209) ;
+
+}
+.contactform{font-family: 'Roboto Slab', serif;
+    padding: 0 34px;
+padding-top: 144px;
+}
+.contactform h1{
+    font-family: 'Inconsolata', monospace;
+
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+}
+
+.main{
+    display: flex;
+    
+   
+  
+}
+
+.container1{
+
+    padding-left: 30px;
+     display: flex; 
+     flex-wrap: wrap;
+    padding-bottom: 150px; 
+} 
+
+.container1 .image {
+         width: 60%; 
+}
+
+.container1 img { 
+         padding-top: 10px;        
+          width: calc(100% - (20px *23));
+           margin: 15px;
+}
+
+.tx1{
+    float: right;
+    padding-right: 100px;
+    text-decoration: none;
+}
+.tx {
+    float: right;
+    padding-right:330px;
+    
+   
+}
+.tx a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(245, 245, 255);
+}
+.tx1 a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(245, 245, 255);
+}
+ .tx a:hover{
+    background-color: rgb(132, 132, 223);
+    color: white;
+}
+ .tx1 a:hover{
+    background-color: rgb(132, 132, 223);
+    color: white;
+}
+.contactform img{
+   margin: 0 10px 0 0;
+    padding-top: 45px;
+}
+.y,.x,.z{
+    height: 50px;
+    width: 50px;
+}
+.devpic1 img{
+    height: 250px;
+    width: 250px;
+    padding-top: 70px;
+}
+.name1 {
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+      blink 800ms steps(15) infinite normal;
+    border-right: 5px solid black;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 63%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+}
+.tyle{
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgb(235, 234, 224), rgb(0, 0, 0), rgb(0, 0, 0));
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+}
+.proj{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
